@@ -1,0 +1,215 @@
+{
+  "title": "Gestione eventi e iscrizioni",
+  "description": "Agenda culturale della biblioteca con iscrizioni, disponibilità dei posti e riepilogo degli eventi.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo degli eventi in programma e delle iscrizioni.",
+      "metrics": [
+        {
+          "label": "Eventi in programma",
+          "value": "12"
+        },
+        {
+          "label": "Iscrizioni attive",
+          "value": "86"
+        },
+        {
+          "label": "Posti disponibili",
+          "value": "34"
+        },
+        {
+          "label": "Eventi tutto esaurito",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Evento",
+        "Data",
+        "Categoria",
+        "Posti rimasti"
+      ],
+      "rows": [
+        [
+          "Letture al chiaro di luna",
+          "12 giugno",
+          "Incontro",
+          "8"
+        ],
+        [
+          "Laboratorio di carta e colore",
+          "15 giugno",
+          "Laboratorio",
+          "5"
+        ],
+        [
+          "Storie in cerchio",
+          "18 giugno",
+          "Lettura",
+          "12"
+        ],
+        [
+          "Piccolo club di poesia",
+          "21 giugno",
+          "Incontro",
+          "0"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "eventi",
+      "title": "Agenda eventi",
+      "description": "Consulta e filtra il calendario, oppure aggiungi un nuovo evento culturale.",
+      "metrics": [],
+      "columns": [
+        "Titolo evento",
+        "Data",
+        "Orario",
+        "Categoria",
+        "Sede",
+        "Capienza",
+        "Iscritti",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Letture al chiaro di luna",
+          "12 giugno",
+          "18:00",
+          "Incontro",
+          "Sala Lumo",
+          "24",
+          "16",
+          "Aperto"
+        ],
+        [
+          "Laboratorio di carta e colore",
+          "15 giugno",
+          "16:30",
+          "Laboratorio",
+          "Spazio Vela",
+          "18",
+          "13",
+          "Aperto"
+        ],
+        [
+          "Storie in cerchio",
+          "18 giugno",
+          "10:30",
+          "Lettura",
+          "Sala Nubi",
+          "20",
+          "8",
+          "Aperto"
+        ],
+        [
+          "Piccolo club di poesia",
+          "21 giugno",
+          "17:00",
+          "Incontro",
+          "Sala Lumo",
+          "16",
+          "16",
+          "Completo"
+        ],
+        [
+          "Mappe di mondi immaginari",
+          "24 giugno",
+          "15:30",
+          "Laboratorio",
+          "Spazio Vela",
+          "20",
+          "11",
+          "Aperto"
+        ],
+        [
+          "Racconti dal giardino",
+          "27 giugno",
+          "10:00",
+          "Lettura",
+          "Sala Nubi",
+          "22",
+          "17",
+          "Aperto"
+        ]
+      ],
+      "form": [
+        "Titolo evento",
+        "Data",
+        "Orario",
+        "Categoria",
+        "Sede",
+        "Capienza",
+        "Iscritti",
+        "Stato"
+      ]
+    },
+    {
+      "id": "iscrizioni",
+      "title": "Iscrizioni",
+      "description": "Filtra le iscrizioni per evento e stato; registra una nuova iscrizione.",
+      "metrics": [],
+      "columns": [
+        "Evento",
+        "Partecipante",
+        "Data iscrizione",
+        "Posti richiesti",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Letture al chiaro di luna",
+          "Niva Rugiada",
+          "3 giugno",
+          "1",
+          "Confermata"
+        ],
+        [
+          "Letture al chiaro di luna",
+          "Timo Brin",
+          "4 giugno",
+          "2",
+          "Confermata"
+        ],
+        [
+          "Laboratorio di carta e colore",
+          "Leda Smeraldo",
+          "5 giugno",
+          "1",
+          "Confermata"
+        ],
+        [
+          "Storie in cerchio",
+          "Orio Campoluce",
+          "6 giugno",
+          "1",
+          "In attesa"
+        ],
+        [
+          "Piccolo club di poesia",
+          "Mira Fiordaliso",
+          "7 giugno",
+          "1",
+          "Confermata"
+        ],
+        [
+          "Mappe di mondi immaginari",
+          "Elio Ventofino",
+          "8 giugno",
+          "2",
+          "Confermata"
+        ]
+      ],
+      "form": [
+        "Evento",
+        "Partecipante",
+        "Data iscrizione",
+        "Posti richiesti",
+        "Stato"
+      ]
+    }
+  ]
+}
